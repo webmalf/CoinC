@@ -26,3 +26,10 @@ Pour exécuter CoinC sous Mac OS X:
 - Lancer le terminal.
 - Se placer dans le répertoire CoinC et exécuter la commande suivante:
 	./CoinC
+
+Reste à faire:
+--------------
+- Traiter les erreurs : notamment la division par zéro.
+- Exécuter les opérations sur des « float » plutôt que sur des « int ».
+- Et plus à venir…
+
