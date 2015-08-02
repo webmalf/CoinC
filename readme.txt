@@ -21,3 +21,8 @@ Pour compiler sous Mac OS X:
 - Se placer dans le répertoire CoinC et exécuter la commande suivante:
          gcc Coinc.c -o CoinC
 
+Pour exécuter CoinC sous Mac OS X:
+----------------------------------
+- Lancer le terminal.
+- Se placer dans le répertoire CoinC et exécuter la commande suivante:
+	./CoinC
