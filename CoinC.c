@@ -17,6 +17,8 @@ int main(int argc, char *argv[], char *env[])
     printf("%d - %d = %d\n", Nbre1, Nbre2, Soustraire(Nbre1, Nbre2));
     printf("%d * %d = %d\n", Nbre1, Nbre2, Multiplier(Nbre1, Nbre2));
     printf("%d / %d = %d\n", Nbre1, Nbre2, Diviser(Nbre1, Nbre2));
+    printf("%d %% %d = %d\n", Nbre1, Nbre2, Modulo(Nbre1, Nbre2));
+    printf("%d ^ 2 = %d\n", Nbre1, Carre(Nbre1));
 }
 
 
@@ -38,4 +40,14 @@ int Multiplier(int Nbre1, int Nbre2)
 int Diviser(int Nbre1, int Nbre2)
 {
     return( Nbre1 / Nbre2);
+}
+
+int Modulo(int Nbre1, int Nbre2)
+{
+    return( Nbre1 % Nbre2);
+}
+
+int Carre(int Nbre1)
+{
+    return( Nbre1 * Nbre1);
 }
